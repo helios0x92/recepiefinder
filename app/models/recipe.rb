@@ -1,3 +1,5 @@
+ENV['FOOD2FORK_KEY'] = 'e6da08f8d77e4779dfc31024ed37490f'
+
 class Recipe < ActiveRecord::Base
   include HTTParty
 
